@@ -20,6 +20,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
   # Debugging tool
+  gem 'factory_bot_rails'
   gem 'pry-rails'
   gem 'rubocop'
   gem 'rubocop-rails'
